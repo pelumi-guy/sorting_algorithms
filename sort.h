@@ -3,7 +3,11 @@
 
 #include <stddef.h>
 
-#define SWAP(a, b) a^=b; b^=a; a^=b;
+#define SWAP(a, b) {\
+	a ^= b;\
+	b ^= a;\
+	a ^= b;\
+}
 
 /**
  * struct listint_s - Doubly linked list node
