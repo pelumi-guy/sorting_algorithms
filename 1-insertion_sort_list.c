@@ -2,10 +2,10 @@
 
 /**
  * shift_list_node - swap the node of a doubly-linked list
- * 				to the next node
+ * to the next node
  * @node: the node of the list to swap
  * @dl_list: the whole doubly-linked list
- * Returns: the list with the swapped nodes
+ * Return: the list with the swapped nodes
  */
 listint_t *shift_list_node(listint_t *node, listint_t **dl_list)
 {
@@ -41,11 +41,10 @@ void insertion_sort_list(listint_t **list)
 
 	if (list == NULL)
 		return;
-	else
-	{
-		if ((*list)->next == NULL)
-			return;
-	}
+
+	if ((*list)->next == NULL)
+		return;
+
 	node = (*list)->next;
 	while (node)
 	{
