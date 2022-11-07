@@ -4,7 +4,8 @@
 
 ## Sorting algorithms & Big O
 
-Sorting algorithms are used to arrange elements of an array/list in a specific order. </ br>
+Sorting algorithms are used to arrange elements of an array/list in a specific order.  
+
 Big O notation is a mathematical notation that describes the limiting behavior of an algorithm as the input size tends towards a particular value or infinity. Big O notation is one of the most fundamental tools for computer scientists to analyze the cost of an algorithm.
 
 ## Learning Objectives
