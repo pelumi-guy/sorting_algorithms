@@ -10,11 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3dde186-a5c6-4032-9603-45f113e178ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100-shell_sort.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shell" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/sort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
       <updated>1667485302216</updated>
       <workItem from="1667485303561" duration="19830000" />
       <workItem from="1667679059943" duration="3594000" />
-      <workItem from="1667774144971" duration="6166000" />
+      <workItem from="1667774144971" duration="6244000" />
     </task>
     <servers />
   </component>

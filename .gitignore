@@ -1,4 +1,5 @@
 #test files
+.idea
 task*
 test*
 *main.c
