@@ -1,5 +1,4 @@
 #include "sort.h"
-#include <stdio.h>
 
 listint_t *shift_backward(listint_t *node,
 		listint_t **dl_list, listint_t **tail);
