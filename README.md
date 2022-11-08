@@ -25,7 +25,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
    with ` gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-insertion_sort_list.c print_list.c -o insertion`
 3. Task 2 (**Selection sort**)
 
-4. Task 3 (**Quick sort**)
+4. Task 3 (**Quick sort**) Compile
+   with `gcc -Wall -Wextra -Werror -pedantic -std=gnu89 3-main.c 3-quick_sort.c print_array.c -o quick`
+5. Task 4 (**Shell sort - Knuth Sequence**). Compile
+   with `gcc -Wall -Wextra -Werror -pedantic -std=gnu89 100-main.c 100-shell_sort.c print_array.c -o shell`
 
 ## Contributors
 
