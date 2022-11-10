@@ -18,12 +18,12 @@ void cocktail_sort_list(listint_t **list)
 {
 	listint_t *current, *head, *tail;
 	int swapped;
-
-	current = head = *list;
-
+	
 	if (list == NULL || head == NULL || head->next == NULL)
 		return;
-
+	
+	current = head = *list;
+	
 	for (tail = *list; tail->next != NULL;)
 		tail = tail->next;
 
