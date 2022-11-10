@@ -16,14 +16,14 @@ listint_t *shift_forward(listint_t *node,
 
 void cocktail_sort_list(listint_t **list)
 {
-	listint_t *current, *head, *tail;
+	listint_t *current, *tail;
 	int swapped;
-	
-	if (list == NULL || head == NULL || head->next == NULL)
+
+	if (list == NULL || *list == NULL || (*list)->next == NULL)
 		return;
-	
-	current = head = *list;
-	
+
+	current = *list;
+
 	for (tail = *list; tail->next != NULL;)
 		tail = tail->next;
 
